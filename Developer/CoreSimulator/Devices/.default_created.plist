@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.CoreSimulator.SimRuntime.iOS-9-3</key>
+	<dict>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPad-2</key>
+		<string>EEDAB8AB-204A-4027-A9EF-BA23B14B40FD</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPad-Air</key>
+		<string>293AEA6E-9F1B-4B94-ACE6-F157CB03A93C</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPad-Air-2</key>
+		<string>B3AD451D-4DB0-48B5-AE26-CB525FB47596</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPad-Pro</key>
+		<string>C877FD6B-52B3-4B3D-91A1-D0910FF104B1</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPad-Retina</key>
+		<string>28D6D148-1A5C-476E-A5FF-BE4472C05E4E</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-4s</key>
+		<string>9982A5C1-D2BA-4F21-9266-F6D67D7836CD</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-5</key>
+		<string>9C9B7EB1-9AD1-4904-9419-70510C11477C</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-5s</key>
+		<string>9404FD3F-5CB2-4EB4-898B-2EC0BB9A161A</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-6</key>
+		<string>0D3BF2DE-437D-429B-8C03-DF0FE519DC7D</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-6-Plus</key>
+		<string>8CA254D0-AE90-4880-A134-38BCF1315249</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-6s</key>
+		<string>93281918-6CA2-4F68-A26A-D311C337167F</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus</key>
+		<string>38581DEC-03AB-4A79-B3C1-30C877676B19</string>
+	</dict>
+	<key>com.apple.CoreSimulator.SimRuntime.tvOS-9-2</key>
+	<dict>
+		<key>com.apple.CoreSimulator.SimDeviceType.Apple-TV-1080p</key>
+		<string>95614FA8-6E4E-4604-9B11-0D0D443ED110</string>
+	</dict>
+	<key>com.apple.CoreSimulator.SimRuntime.watchOS-2-2</key>
+	<dict>
+		<key>com.apple.CoreSimulator.SimDeviceType.Apple-Watch-38mm</key>
+		<string>20D452BE-25EE-4E27-81D4-7035EE2405DD</string>
+		<key>com.apple.CoreSimulator.SimDeviceType.Apple-Watch-42mm</key>
+		<string>B681A1EE-C354-4EBB-8C05-EF0AB424BE9C</string>
+	</dict>
+	<key>version</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,2 @@
+[Error] Mon Sep 19 13:43:17.939 2016 (ExtensionManager.cpp, 1072) -CExtensionManager::createDBPath: makeWritableForAllUsers() failed, status = -163!
+[Warning] Mon Sep 19 13:43:18.354 2016 (ExManProcessMutex.cpp, 61) -CExManProcessMutex::CExManProcessMutex: failed to init m_fd.

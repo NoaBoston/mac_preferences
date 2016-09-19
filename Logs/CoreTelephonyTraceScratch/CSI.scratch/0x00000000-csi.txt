@@ -1,0 +1,797 @@
+0.017 misc: Time of day: 1474285388.502840 (tz=7200)
+0.023 CopyIMSConfigValue: : ConferenceCalling.conferenceServer. = NULL
+0.027 CopyIMSConfigValue: : Voice.EnableVolteByDefault. = NULL
+0.027 CopyIMSConfigValue: : Voice.BlockCallsOverCS. = <CFBoolean 0x7fff7b988e50 [0x7fff7b988440]>{value = false}
+0.027 CopyIMSConfigValue: : Voice.EnableVoLTEWithVoWiFi. = <CFBoolean 0x7fff7b988e40 [0x7fff7b988440]>{value = true}
+0.027 CopyIMSConfigValue: : SMS.enableInNonVoLTEMode. = <CFBoolean 0x7fff7b988e50 [0x7fff7b988440]>{value = false}
+0.028 CopyIMSConfigValue: : Voice.ttyIMSSupported. = <CFBoolean 0x7fff7b988e40 [0x7fff7b988440]>{value = true}
+0.029 CopyIMSConfigValue: : XCAP.supported. = <CFBoolean 0x7fff7b988e50 [0x7fff7b988440]>{value = false}
+0.000 [I] misc: Communications Center passed sandbox_init_with_parameters. homeDirPath: '/nfs/2015/f/fbellott', usersBasePath: '/nfs', realHomeDirPath: '/nfs/2015/f/fbellott', realUsersBasePath: '/nfs', userCacheDir: '/private/var/folders/zz/zyxvpxvq6csfxvn_n0001m1r000d0f/C'
+0.001 [I] misc: Communications Center quarantined successfully
+0.001 [N] misc: CommCenter Init: initializing
+0.001 [I] evt: Firing event 'awd_config_change'
+0.010 [I|4+] xpc.tracker: Tracker gathering stats = false(logged=false, queriable=false)
+0.010 [I|4] xpc.tracker: Tracker gathering stats = false(logged=false, queriable=false)
+0.010 [I] xpc.tracker: Tracker gathering stats = false(logged=false, queriable=false)
+0.015 [I] rm: machine = x86_64 model = iMac13,2
+0.015 [I] NOBB:NoBBRadioModule:NoBBRadioModule: 
+0.015 [I] rm: Machine name: x86_64
+0.015 [I] rm: Model name: iMac13,2
+0.015 [I] rm: ----------------- Starting NoBBRadioModule ----------------
+0.015 [I] NoBBAudioRoutingModel:NoBBAudioRoutingModel: 
+0.017 [I] trc: Failed to remove /tmp/CommCenter.dumping, err = No such file or directory
+0.017 [I] trc: Failed to remove scratch contents
+0.017 [I] evt: Firing event 'csi_logging_enabled': with params= 1
+0.021 [I] trc: CSILog: Long history set to 32MB
+0.021 [I] rm: ----------------- Created traceModule ----------------
+0.021 [I] data: DATA:ServiceInterface:createWithParameters: creating without transport
+0.022 [I] DATA:Collocation_NoBB:0:NoBBDataCollocation: 
+0.022 [I] DATA:Collocation_NoBB:1:NoBBDataCollocation: 
+0.022 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: fRadioSimModeSink:kUnknown
+0.022 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionInternet
+0.022 [I|6+] call: Setting CallCommandDriver to IMSCallCommandDriver
+0.022 [I|11+] DataNetworkMonitorOSX:___ZN21DataNetworkMonitorOSX26registerForInterfaceEventsEv_block_invoke: Notify registration status: 0, token: 30, this: <0x7fb94a70e798>
+0.022 [I|11] DataNetworkMonitorOSX:handleNetworkStateChanged_sync: nwi_state: 0x7fb94a70eb80
+0.022 [I] DATA:Connection:Internet:initAgent: Registered NWAgent F99A1BBA-8150-4BBB-A9DC-D8FC7FAFA83E
+0.022 [I|11] DataNetworkMonitorOSX:checkIPConnectivity_sync: ***** ipConnectivityAvailable: true
+0.022 [I] DATA:Connection:Internet:setPolicy: Creating policy for unscoped Internet for first time NWAgent F99A1BBA-8150-4BBB-A9DC-D8FC7FAFA83E
+0.022 [I|11] DataNetworkMonitorOSX:checkIPConnectivity_sync: ipConnectivity UP. Current primary interface: 'en0'
+0.022 [I|11] evt: Firing event 'dataWifiAvailable': with params= 1, {en0}
+0.022 [I|6+] call.CmdDriver.IMS: IMSCallCommandDriver::fillUpDefaultCallCapabilities
+0.023 [I] DATA:Connection:Internet:setPolicy: Creating policy for NWAgent F99A1BBA-8150-4BBB-A9DC-D8FC7FAFA83E
+0.023 [I] call.AudioDriver: CallAudioDriver Audio Service client received a server error
+0.023 [E] call.CmdDriver.IMS: Nas QMI Client server error!
+0.023 [I|13+] ps.tdm: Local store has 0 records
+0.023 [I|13] ps.tdm: Using iCloud-KVS for Thumper sync
+0.023 [I|13] ids: [i] Created a sync for service com.apple.private.alloy.thumper.keys
+0.024 [I] DATA:Connection:Internet:updateAgent: Updating NWAgent F99A1BBA-8150-4BBB-A9DC-D8FC7FAFA83E
+0.024 [I] DATA:Connection:Internet:DataConnectionInternet: created <0x7fb94a70d060>
+0.024 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionVVM
+0.024 [I] DATA:Connection:VVM:updateAgent: Updating NWAgent 620DBF4C-35FE-4924-83AE-DBCBAFFB5937
+0.024 [I] DATA:Connection:VVM:updateAgent: Failed to update NWAgent 620DBF4C-35FE-4924-83AE-DBCBAFFB5937
+0.024 [I] DATA:Connection:VVM:handleFailure: NWAgent 620DBF4C-35FE-4924-83AE-DBCBAFFB5937, Failed to recover, just giving up
+0.024 [I] DATA:Connection:VVM:DataConnectionVVM: created <0x7fb94a60de10>
+0.024 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionMMS
+0.024 [I] DATA:Connection:MMS:updateAgent: Updating NWAgent AD35F0F2-6A48-4833-883E-082224F166F5
+0.024 [I] DATA:Connection:MMS:updateAgent: Failed to update NWAgent AD35F0F2-6A48-4833-883E-082224F166F5
+0.024 [I] DATA:Connection:MMS:handleFailure: NWAgent AD35F0F2-6A48-4833-883E-082224F166F5, Failed to recover, just giving up
+0.024 [I] DATA:Connection:MMS:DataConnectionMMS: created <0x7fb94a437580>
+0.024 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionPushEmail
+0.025 [I] DATA:Connection:PushEmail:updateAgent: Updating NWAgent A732F042-BDCD-455C-B675-5CE151386807
+0.025 [I] DATA:Connection:PushEmail:updateAgent: Failed to update NWAgent A732F042-BDCD-455C-B675-5CE151386807
+0.025 [I] DATA:Connection:PushEmail:handleFailure: NWAgent A732F042-BDCD-455C-B675-5CE151386807, Failed to recover, just giving up
+0.025 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionWirelessModemTraffic
+0.025 [I] DATA:Connection:WirelessModemTraffic:updateAgent: Updating NWAgent 3BBD5580-4E5B-4D02-A38F-333A523670C2
+0.025 [I] DATA:Connection:WirelessModemTraffic:updateAgent: Failed to update NWAgent 3BBD5580-4E5B-4D02-A38F-333A523670C2
+0.025 [I] DATA:Connection:WirelessModemTraffic:handleFailure: NWAgent 3BBD5580-4E5B-4D02-A38F-333A523670C2, Failed to recover, just giving up
+0.025 [I] DATA:Connection:WirelessModemTraffic:DataConnectionWirelessModemTraffic: created <0x7fb94a439080>
+0.025 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionWirelessModemAuthentication
+0.025 [I] DATA:Connection:WirelessModemAuthentication:updateAgent: Updating NWAgent 4D60BC98-91E8-4794-9E10-144CC7CF84FA
+0.025 [I] DATA:Connection:WirelessModemAuthentication:updateAgent: Failed to update NWAgent 4D60BC98-91E8-4794-9E10-144CC7CF84FA
+0.025 [I] DATA:Connection:WirelessModemAuthentication:handleFailure: NWAgent 4D60BC98-91E8-4794-9E10-144CC7CF84FA, Failed to recover, just giving up
+0.025 [I] DATA:Connection:WirelessModemAuthentication:DataConnectionWirelessModemAuthentication: created <0x7fb94a436320>
+0.025 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionCellularDataPlanProvisioning
+0.025 [I] DATA:Connection:Provisioning:updateAgent: Updating NWAgent 629B572B-B986-443F-9DF7-A64B7ACF79F0
+0.025 [I] DATA:Connection:Provisioning:updateAgent: Failed to update NWAgent 629B572B-B986-443F-9DF7-A64B7ACF79F0
+0.025 [I] DATA:Connection:Provisioning:handleFailure: NWAgent 629B572B-B986-443F-9DF7-A64B7ACF79F0, Failed to recover, just giving up
+0.025 [I] DATA:Connection:Provisioning:DataConnectionProvisioning: created <0x7fb94a614b70>
+0.025 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionAppleWirelessDiagnostics
+0.025 [I] DATA:Connection:AppleWirelessDiagnostics:updateAgent: Updating NWAgent 673D08D8-ED16-41BC-BD3E-427CA2B208A1
+0.025 [I] DATA:Connection:AppleWirelessDiagnostics:updateAgent: Failed to update NWAgent 673D08D8-ED16-41BC-BD3E-427CA2B208A1
+0.025 [I] DATA:Connection:AppleWirelessDiagnostics:handleFailure: NWAgent 673D08D8-ED16-41BC-BD3E-427CA2B208A1, Failed to recover, just giving up
+0.025 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionDataTest
+0.025 [I] DATA:Connection:DataTest:updateAgent: Updating NWAgent AF86CE4B-B445-428B-8E64-0A18383D68EE
+0.025 [I] DATA:Connection:DataTest:updateAgent: Failed to update NWAgent AF86CE4B-B445-428B-8E64-0A18383D68EE
+0.025 [I] DATA:Connection:DataTest:handleFailure: NWAgent AF86CE4B-B445-428B-8E64-0A18383D68EE, Failed to recover, just giving up
+0.025 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionOTAActivation
+0.025 [I] DATA:Connection:OTAActivation:updateAgent: Updating NWAgent 017E10BA-FA43-43BA-989B-FA20C169444F
+0.025 [I] DATA:Connection:OTAActivation:updateAgent: Failed to update NWAgent 017E10BA-FA43-43BA-989B-FA20C169444F
+0.025 [I] DATA:Connection:OTAActivation:handleFailure: NWAgent 017E10BA-FA43-43BA-989B-FA20C169444F, Failed to recover, just giving up
+0.025 [I] DATA:Connection:OTAActivation:DataConnectionOTAActivation: created <0x7fb94a43c470>
+0.025 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnection3GFaceTimeTraffic
+0.025 [I] DATA:Connection:3GFaceTimeTraffic:updateAgent: Updating NWAgent 60F07081-3D2E-40AE-9817-7C2B562D3C42
+0.025 [I] DATA:Connection:3GFaceTimeTraffic:updateAgent: Failed to update NWAgent 60F07081-3D2E-40AE-9817-7C2B562D3C42
+0.025 [I] DATA:Connection:3GFaceTimeTraffic:handleFailure: NWAgent 60F07081-3D2E-40AE-9817-7C2B562D3C42, Failed to recover, just giving up
+0.025 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnection3GFaceTimeAuthentication
+0.025 [I] DATA:Connection:3GFaceTimeAuthentication:updateAgent: Updating NWAgent 3E4F00E3-63B8-4320-889A-4A766859DC04
+0.025 [I] DATA:Connection:3GFaceTimeAuthentication:updateAgent: Failed to update NWAgent 3E4F00E3-63B8-4320-889A-4A766859DC04
+0.025 [I] DATA:Connection:3GFaceTimeAuthentication:handleFailure: NWAgent 3E4F00E3-63B8-4320-889A-4A766859DC04, Failed to recover, just giving up
+0.025 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionOMADM
+0.025 [I] DATA:Connection:OMADM:updateAgent: Updating NWAgent 8F971FE3-BAAA-4E54-AF5C-48196C5DA3DA
+0.025 [I] DATA:Connection:OMADM:updateAgent: Failed to update NWAgent 8F971FE3-BAAA-4E54-AF5C-48196C5DA3DA
+0.025 [I] DATA:Connection:OMADM:handleFailure: NWAgent 8F971FE3-BAAA-4E54-AF5C-48196C5DA3DA, Failed to recover, just giving up
+0.025 [I] DATA:Connection:OMADM:DataConnectionOMADM: created <0x7fb94a43e1e0>
+0.025 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionOTAInternet
+0.025 [I] DATA:Connection:OTAInternet:updateAgent: Updating NWAgent 0CE2BA4C-23A6-4CC7-90D3-5B6F7D6E33CD
+0.025 [I] DATA:Connection:OTAInternet:updateAgent: Failed to update NWAgent 0CE2BA4C-23A6-4CC7-90D3-5B6F7D6E33CD
+0.025 [I] DATA:Connection:OTAInternet:handleFailure: NWAgent 0CE2BA4C-23A6-4CC7-90D3-5B6F7D6E33CD, Failed to recover, just giving up
+0.025 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionZeroRated
+0.026 [I] DATA:Connection:ZeroRated:updateAgent: Updating NWAgent C2D57F72-7C47-4023-9B11-D1408824746C
+0.026 [I] DATA:Connection:ZeroRated:updateAgent: Failed to update NWAgent C2D57F72-7C47-4023-9B11-D1408824746C
+0.026 [I] DATA:Connection:ZeroRated:handleFailure: NWAgent C2D57F72-7C47-4023-9B11-D1408824746C, Failed to recover, just giving up
+0.026 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionEntitlementTraffic
+0.026 [I] DATA:Connection:EntitlementTraffic:updateAgent: Updating NWAgent CDB5A6E7-7D66-4CCF-8893-18AC9DD789E0
+0.026 [I] DATA:Connection:EntitlementTraffic:updateAgent: Failed to update NWAgent CDB5A6E7-7D66-4CCF-8893-18AC9DD789E0
+0.026 [I] DATA:Connection:EntitlementTraffic:handleFailure: NWAgent CDB5A6E7-7D66-4CCF-8893-18AC9DD789E0, Failed to recover, just giving up
+0.026 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionInternalDataProbe
+0.026 [I] DATA:Connection:InternalDataProbe:updateAgent: Updating NWAgent 81B541D0-C022-4638-9A85-647DE4696522
+0.026 [I] DATA:Connection:InternalDataProbe:updateAgent: Failed to update NWAgent 81B541D0-C022-4638-9A85-647DE4696522
+0.026 [I] DATA:Connection:InternalDataProbe:handleFailure: NWAgent 81B541D0-C022-4638-9A85-647DE4696522, Failed to recover, just giving up
+0.026 [I] DATA:Connection:InternalDataProbe:DataConnectionInternalDataProbe: created <0x7fb94a440230>
+0.026 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionIM
+0.026 [I] DATA:Connection:iw5:updateAgent: Updating NWAgent C214A948-C375-47D4-B125-9A103C0D042F
+0.026 [I] DATA:Connection:iw5:updateAgent: Failed to update NWAgent C214A948-C375-47D4-B125-9A103C0D042F
+0.026 [I] DATA:Connection:iw5:handleFailure: NWAgent C214A948-C375-47D4-B125-9A103C0D042F, Failed to recover, just giving up
+0.026 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionEm
+0.026 [I] DATA:Connection:Em:updateAgent: Updating NWAgent F96620BB-DFAF-42A8-BF3C-5E19F99A4CE2
+0.026 [I] DATA:Connection:Em:updateAgent: Failed to update NWAgent F96620BB-DFAF-42A8-BF3C-5E19F99A4CE2
+0.026 [I] DATA:Connection:Em:handleFailure: NWAgent F96620BB-DFAF-42A8-BF3C-5E19F99A4CE2, Failed to recover, just giving up
+0.026 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionBootstrap
+0.026 [I] DATA:Connection:Bootstrap:updateAgent: Updating NWAgent 7240D7FE-4F6E-4D69-BDF2-0AFA3062C14D
+0.026 [I] DATA:Connection:Bootstrap:updateAgent: Failed to update NWAgent 7240D7FE-4F6E-4D69-BDF2-0AFA3062C14D
+0.026 [I] DATA:Connection:Bootstrap:handleFailure: NWAgent 7240D7FE-4F6E-4D69-BDF2-0AFA3062C14D, Failed to recover, just giving up
+0.026 [I] DATA:Connection:Bootstrap:DataConnectionBootstrap: created <0x7fb94a711ec0>
+0.026 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionUT
+0.026 [I] DATA:Connection:UT:updateAgent: Updating NWAgent 984BE3B9-BDFB-477B-A91C-66BBB524810E
+0.026 [I] DATA:Connection:UT:updateAgent: Failed to update NWAgent 984BE3B9-BDFB-477B-A91C-66BBB524810E
+0.026 [I] DATA:Connection:UT:handleFailure: NWAgent 984BE3B9-BDFB-477B-A91C-66BBB524810E, Failed to recover, just giving up
+0.026 [I] DATA:Connection:UT:DataConnectionUT: created <0x7fb94a712c60>
+0.026 [I] DATA:ServiceController:___ZN21DataServiceControllerC1ERK16ModuleParameters_block_invoke: created service kDataConnectionBootstrapRoamingInternetBypass
+0.026 [I] DATA:Connection:BootstrapRoamingInternetBypass:updateAgent: Updating NWAgent 03795A93-A8FC-4430-AB7D-7144DE78C86B
+0.026 [I] DATA:Connection:BootstrapRoamingInternetBypass:updateAgent: Failed to update NWAgent 03795A93-A8FC-4430-AB7D-7144DE78C86B
+0.026 [I] DATA:Connection:BootstrapRoamingInternetBypass:handleFailure: NWAgent 03795A93-A8FC-4430-AB7D-7144DE78C86B, Failed to recover, just giving up
+0.026 [I] DATA:Connection:BootstrapRoamingInternetBypass:DataConnectionBootstrapRoamingInternetBypass: created <0x7fb94a713a00>
+0.026 [I] DATA:TechContext:0:setStatus: from kNEIPSecNotifyIKEStatusInvalid to kNEIPSecNotifyIKEStatusInvalid
+0.026 [I] DATA:Collocation_NoBB:0:registerObserver: TechContext:0 registered with us
+0.026 [I] DATA:TechContext:1:setStatus: from kNEIPSecNotifyIKEStatusInvalid to kNEIPSecNotifyIKEStatusInvalid
+0.026 [I] DATA:Collocation_NoBB:1:registerObserver: TechContext:1 registered with us
+0.026 [I] DATA:TechDriver:TechDataDriver: sessionActive: false
+0.026 [I] DATA:TechDriver:handleImpiFileAvailable_sync: subscriber service is not running
+0.026 [I] DATA:TechDriver:handleImpiFileAvailable_sync: handleIsimInfoAvailable_sync: fImpiUser=
+0.026 [I] DATA:TechDriver:TechDataDriver: Found available WiFi interface: en0
+0.026 [I] DATA:TechDriver:handleWifiAvailable_sync: available = true  on [en0]
+0.026 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Wifi Changed
+0.026 [I] DATA:TechDriver:handleSimsChanged_sync: empty sim info.
+0.026 [I] DATA:TechDriver:TechDataDriver: <0x7fb94a7155b0> created
+0.026 [I] DATA:ServiceController:DataServiceController: <0x7fb94a70bb40> created
+0.026 [I] NOBB:NoBBRegistration_NOSUPPORT:NoBBRegistrationController: Object constructed <----------
+0.026 [I] DATA:ServiceController:recalculateConnectionAvailability: fRadioModuleCreated is false, bailing for now (Wifi Changed)
+0.026 [I|17+] ent.ctr: Initializing Carrier Entitlements Controller
+0.026 [I] 5wi: Constructor: fCountrySetFlag set to false
+0.026 [I] rm: Model Mask is 1044202
+0.026 [I|17] ent.ctr: ================================================================================================
+0.026 [I] rm: ----------------- created  models ----------------
+0.026 [I|17] ent.ctr: Reset called upon with update: false and reason CheckEntitlementsReason::kSelfInitiated
+0.026 [I|17] ent.ctr: ================================================================================================
+0.026 [I] evt: Firing event 'postponementStatusChanged': with params= kUnknown, kActivated, 1
+0.026 [I|17] ent.ctr: Potentially instantiating Entitlements Command Driver
+0.027 [I|15+] csi.session: handleLoginSessionStateChange_sync(): Session is logged in
+0.027 [I|15] evt: Firing event 'loginSessionStateChange': with params= 1
+0.027 [I|15] csi.session: initialize(): loginSessionActive: true
+0.027 [I|24+] max: Switch support retrieved -----  3G switch support: DataRateSwitchSupport::kUnknown, LTE switch support: DataRateSwitchSupport::kUnknown
+0.027 [I|24] max: User preference for Enable 3G: DataRateUserPreference::kUnknown with  3G switch support: DataRateSwitchSupport::kUnknown
+0.027 [I|24] max: User preference for Enable LTE: DataRateUserPreference::kUnknown with LTE switch support: DataRateSwitchSupport::kUnknown
+0.027 [I|24] max: User Preference evaluated -----  3G switch user preference: DataRateUserPreference::kUnknown, LTE switch user preference: DataRateUserPreference::kUnknown
+0.027 [I|25+] server: Creating Server Updater object
+0.027 [I|23+] ent.psh: Reset Push Listener
+0.027 [I|20+] 5wi: No retrieved value for SystemDeterminationManager::ConnectivityHelperType
+0.027 [I] DATA:ServiceController:handlePostponementStatusChanged: Current: kUnknown, New kActivated
+0.027 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 0, Postponement status change
+0.027 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 1, Login session state changed to true
+0.027 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 1, Login session state changed to true
+0.027 [I] DATA:iRatController:handleLoginSessionStateChanged_sync: Session is logged in. Start iRatClient
+0.027 [I] DATA:ServiceController:recalculateConnectionAvailability: fRadioModuleCreated is false, bailing for now (Postponement status change)
+0.027 [I] DATA:ServiceController:recalculateConnectionAvailability: fRadioModuleCreated is false, bailing for now (Login session state changed to true)
+0.027 [I] DATA:ServiceController:recalculateConnectionAvailability: fRadioModuleCreated is false, bailing for now (Login session state changed to true)
+0.027 [I|22+] sysobs: Polling for the states of screen, lock, reachability status, and battery saver mode
+0.027 [I|20] 5wi: VoLTE Switch: Using carrier default 0
+0.027 [I] DATA:iRatClient:start_sync: Starting iRat Client
+0.027 [I] DATA:iRatClient:register_sync: register with server: {
+	"kMessageId": 1u,
+	"kMessageArgs": {
+		"kWCMRegisterProcess_ProcessId": 7u
+	}
+}
+0.027 [I|22] DisplayStateModel:changeFlag: DisplayIsOn, from true to true
+0.027 [I|22] evt: Firing event 'statusBarVisible': with params= 1
+0.027 [I|22] DisplayStateModel:changeFlag: DisplayIsLocked, from true to false
+0.027 [I|22] evt: Firing event 'displayLocked': with params= 0
+0.028 [I|22] sysobs: CommCenter starts since device boot: 10
+0.028 [I] NOBB:NoBBRadioModule:handleWifiAvailable: available = false
+0.028 [I] NOBB:NoBBRadioModule:checkNoBBRadioDownCondition: fNoBBWiFiOffInAirplaneMode true. fNoBBAirplaneMode false  fWiFiAvailable false
+0.028 [I] NOBB:NoBBRadioModule:checkNoBBRadioDownCondition: Pretending that NoBB Radio is on. fNoBBAirplaneMode false  fWiFiAvailable false
+0.028 [I] evt: Firing event 'WiFiOffInAirplaneMode': with params= 0
+0.028 [I|22+] sysobs: WiFi Availability is changing from false to true
+0.028 [I|22] evt: Firing event 'wifiAvailable': with params= 1
+0.028 [I|22] sysobs: Internet availability is changing from false to true
+0.028 [I|22] evt: Firing event 'internetAvailable': with params= 1
+0.028 [I] evt: Firing event 'moduleCreated'
+0.028 [I|17] ent.ctr: Entitlement server address missing. Driver is not created
+0.028 [I|17] ent.ctr: No Entitlements Driver
+0.028 [I] trc: Module: changes state from Idle to Starting
+0.028 [I] NOBB:NoBBRadioModule:getModelMask: returning 1000001000100001000000010
+0.028 [I] trc: Work Start
+0.028 [I|17] ent.ctr: Adding FaceTimeOverCellular to not supported
+0.028 [I] trc: Starting
+0.028 [I] DATA:dw-apn:DarwinPDPConfig: 
+0.028 [I|17] ent.ctr: Adding Tethering to not supported
+0.028 [I] trc: Module: changes state from Starting to Idle
+0.028 [I|17] ent.ctr: Adding Agent to not supported
+0.028 [I|17] ent.ctr: Adding VoWiFi to not supported
+0.028 [I|17] ent.ctr: Adding Thumper to not supported
+0.028 [I|17] ent.ctr: 
+0.028 [I|17] ent.ctr: Generating entitlement changed events
+0.028 [I|17] ent.ctr: 
+0.028 [I|25+] server: ================================================================================================
+0.028 [I|25] server: Internet available, checking to send Activation report to the server
+0.028 [I|25] server: Cannot send the report, Activation Activity Handler State: Service Provisioned: false, CS Registered: false, PS Registered: false, PDP Activated: false, MCC: , MNC: 
+0.028 [I|17] evt: Firing event 'entitlement_changed': with params= 0000000000, 0000000000, 0111001100, EntitlementResults(Phone Number:Unknown, SubscriptionAndUsageStatus:Unknown, FaceTimeOverCellular:Unknown, Tethering:Unknown, Update Push Token:Unknown, Perform Auth-Only:Unknown, Agent:Unknown, VoWiFi:Unknown, Thumper:Unknown, VVM:Unknown, )
+0.028 [I|25] server: Activation activity report result: SendReportResult::kNotReadyToSend
+0.028 [I] DATA:ServiceController:handleRadioModuleCreated_sync: setting fRadioModuleCreated to true
+0.028 [I] evt: Firing event 'recalculateConnectionAvailability': with params= 1, fRadioModuleCreated is true
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I|17] ent.ctr: Invalidating Entitlements State with reason CheckEntitlementsReason::kSelfInitiated
+0.028 [I] pkt: getPDPManager: no PDP Manager or invalid context 0 specified
+0.028 [I] pkt: getPDPManager: no PDP Manager or invalid context 1 specified
+0.028 [I|4+] xpc.event:   --------------> kCTEventCarrierEntitlementsQueryComplete(136) sent to 0 (of 0) clients. Full Event: {
+	"kEvent": 136,
+	"kNotificationEvent": 136,
+	"kNotificationDict": {}
+}
+0.028 [I] DATA:Connection:Bootstrap:canActivateTrigger: 
+0.028 [I] DATA:Connection:BootstrapRoamingInternetBypass:canActivateTrigger: isRoaming: false, canActivate: false
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I|20] enth.ctr: Uniqueid: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionInternet: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I|20] NOBB:NoBBRadioModule_NOSUPPORT:getDeviceSoftwareVersion: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I|20] 5wi: RegMasks[Allowed]: Enabled[0] Allowed[1] SimFiles[0] Pref[0] Connectivity[0] TTY[0] Power[0] DataContext[0] Proxy[0] Daemon[0] MSISDNPresent[0] AlloweWhileOnCSCall[0] DCN[0] 
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionVVM: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I|20] 5wi: RegMasks[Power]: Enabled[0] Allowed[1] SimFiles[0] Pref[0] Connectivity[0] TTY[0] Power[1] DataContext[0] Proxy[0] Daemon[0] MSISDNPresent[0] AlloweWhileOnCSCall[0] DCN[0] 
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionMMS: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionPushEmail: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I|20] 5wi: RegMasks[TTY]: Enabled[0] Allowed[1] SimFiles[0] Pref[0] Connectivity[0] TTY[1] Power[1] DataContext[0] Proxy[0] Daemon[0] MSISDNPresent[0] AlloweWhileOnCSCall[0] DCN[0] 
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionWirelessModemTraffic: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I|20] 5wi: RegMasks[AlloweWhileOnCSCall]: Enabled[0] Allowed[1] SimFiles[0] Pref[0] Connectivity[0] TTY[1] Power[1] DataContext[0] Proxy[0] Daemon[0] MSISDNPresent[0] AlloweWhileOnCSCall[1] DCN[0] 
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I|20] 5wi: RegMasks[DCN]: Enabled[0] Allowed[1] SimFiles[0] Pref[0] Connectivity[0] TTY[1] Power[1] DataContext[0] Proxy[0] Daemon[0] MSISDNPresent[0] AlloweWhileOnCSCall[1] DCN[1] 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionWirelessModemAuthentication: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionCellularDataPlanProvisioning: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionAppleWirelessDiagnostics: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionDataTest: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionOTAActivation: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnection3GFaceTimeTraffic: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnection3GFaceTimeAuthentication: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionOMADM: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionOTAInternet: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionZeroRated: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionEntitlementTraffic: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionInternalDataProbe: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionIM: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionEm: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.028 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.028 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionBootstrap: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.028 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=ipsec0, transportType=kDataContextUnknown
+0.029 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.029 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionUT: idByMask=-2, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.029 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=, transportType=kDataContextUnknown
+0.029 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.029 [I] DATA:ServiceController:updateStateCache_sync: kDataConnectionBootstrapRoamingInternetBypass: idByMask=0, configuredByMask[BB]=false, configuredByMask[iW]=false, activeByMask=false, networkActive=false, activeOver=kDataContextUnknown
+0.029 [I] DATA:ServiceController:updateStateCache_sync:     activeAndIdByConnection:  id=-2, active=false, currentInterface=ipsec0, transportType=kDataContextUnknown
+0.029 [I] DATA:ServiceController: updateStateCache_sync: pdp_id=0  pdp=0 state=0 dataAtt=1 ind=7 roam=1 mask=[](0x0) tech=7 IPf=0 override=0 p9=0 (num=9)
+0.029 [I] DATA:ServiceController: updateStateCache_sync: pdp_id=1  pdp=1 state=0 dataAtt=1 ind=7 roam=1 mask=[](0x0) tech=7 IPf=0 override=0 p9=0 (num=9)
+0.029 [I] DATA:ServiceController:recalculateConnectionAvailability: Internal event: If(-3), Vf(-3), Mf(-3), Ef(-3), Wf(-3), wf(-3), Pf(-3), Df(-3), Tf(-3), Of(-3), Ff(-3), ff(-3), mf(-3), of(-3), Zf(-3), $f(-3), if(-3), Sf(-3), 9f(-3), Bf(-3), Uf(-3), bf(-3) due to fRadioModuleCreated is true
+0.029 [I] evt: Firing event 'connectionAvailability': with params= 0, { f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3), f(-3)}
+0.029 [I] DATA:ServiceController:recalculateConnectionAvailability: sending CT event due to fRadioModuleCreated is true
+0.029 [I|28+] enth.ctr: Initializing Carrier Entitlements Controller
+0.029 [I|28] enth.ctr: ================================================================================================
+0.029 [I|28] enth.ctr: Reset called upon with update: false and reason CheckEntitlementsReason::kSelfInitiated
+0.029 [I|28] enth.ctr: ================================================================================================
+0.029 [I|28] enth.ctr: Potentially instantiating Entitlements Command Driver
+0.029 [I|28] enth.ctr: Entitlement server address missing. Driver is not created
+0.029 [I|28] enth.ctr: No Entitlements Driver
+0.029 [I|28] enth.ctr: 
+0.029 [I|28] enth.ctr: Generating entitlement changed events
+0.029 [I|28] enth.ctr: 
+0.029 [I|28] evt: Firing event 'entitlement_changed_th': with params= 0000000000, 0000000000, 0000000000, EntitlementResults(Phone Number:Unknown, SubscriptionAndUsageStatus:Unknown, FaceTimeOverCellular:Unknown, Tethering:Unknown, Update Push Token:Unknown, Perform Auth-Only:Unknown, Agent:Unknown, VoWiFi:Unknown, Thumper:Unknown, VVM:Unknown, )
+0.029 [I|28] enth.ctr: Invalidating Entitlements State with reason CheckEntitlementsReason::kSelfInitiated
+0.029 [I] NOBB:NoBBRadioModule:handleTraceStart: 
+0.029 [I|4+] xpc.event:   --------------> kCTEventDataServiceAvailability(157) sent to 0 (of 0) clients. Full Event: {
+	"kEvent": 157,
+	"kNotificationEvent": 157,
+	"kNotificationDict": {
+		"kCTRegistrationDataConnectionServices": []
+	}
+}
+0.029 [I|4+] xpc.event:   --------------> kCTEventCarrierEntitlementsQueryComplete(136) sent to 0 (of 0) clients. Full Event: {
+	"kEvent": 136,
+	"kNotificationEvent": 136,
+	"kNotificationDict": {}
+}
+0.029 [I|29+] enth.psh: Reset Push Listener
+0.029 [I|20] 5wi: getTelephonyPref, did not find value for key in pref file : domainSelectionRegFailureThreshold
+0.029 [I|20] 5wi: We are about to create Client
+0.029 [I|20] 5wi: SystemDeterminationManager::evaluateTTYMode, TTY Disabled
+0.029 [I|20] 5wi: getTelephonyPref, did not find value for key in pref file : CountryLookupThreshold
+0.034 [I|31+] cb.client: Retrieved next update from preferences file: 2016-10-02 10:05:26 +0000
+0.034 [I|31] cb.client: Setting update trigger from BundleUpdateCheckTrigger::kUnknown to BundleUpdateCheckTrigger::kPeriodicCheck
+0.034 [I|31] cb.client: Setting carrier bundle update upon from CheckBundleUpdateUpon::kTimerExpiry to CheckBundleUpdateUpon::kTimerExpiry
+0.034 [I|31] cb.client: Scheduling a carrier bundle update check in seconds: 1117338, in hours: 310, in days: 12
+0.034 [I|33+] cb.server: Initializing Carrier Bundle Interface Server
+0.034 [I|31] cb.server: Received command at the server: kInitialize
+0.034 [I|31,33+] cb.server: Initializing the bundles
+0.034 [I|31,33] cb.man: Initializing Carrier Bundle Locations
+0.034 [I|31,33] cb.man: Using /System/Library/Carrier Bundles/iPad/ and /nfs/2015/f/fbellott/Library/Carrier Bundles/iPad/ for respective locations
+0.035 [I|31,33] cb.match.util: No content in directory in cache: /System/Library/Carrier Bundles/iPad
+0.035 [I|31,33] cb.man: Saving the contents of directory /System/Library/Carrier Bundles/iPad/ in preferences file 
+0.036 [I|31,33] cb.man: Invalid matching information
+0.036 [I|31,33] cb.server: Reply dictionary after initialization: {
+	"kOperatorBundle": {
+		"kCarrierFilePathName": "",
+		"kLinkingPath": "",
+		"kBundleVersion": "",
+		"kBundleTechnologyType": 0,
+		"kMatchedPath": "",
+		"kResolvedPath": "",
+		"kBundleIdentifier": "",
+		"kPrefFile": "",
+		"kNameOfBundle": ""
+	},
+	"kCarrierBundle": {
+		"kCarrierFilePathName": "",
+		"kLinkingPath": "",
+		"kBundleVersion": "",
+		"kBundleTechnologyType": 0,
+		"kMatchedPath": "",
+		"kResolvedPath": "",
+		"kBundleIdentifier": "",
+		"kPrefFile": "",
+		"kNameOfBundle": ""
+	},
+	"kDefaultBundle": {
+		"kCarrierFilePathName": "",
+		"kLinkingPath": "",
+		"kBundleVersion": "",
+		"kBundleTechnologyType": 0,
+		"kMatchedPath": "",
+		"kResolvedPath": "",
+		"kBundleIdentifier": "",
+		"kPrefFile": "",
+		"kNameOfBundle": ""
+	},
+	"kBootstrapBundle": {
+		"kCarrierFilePathName": "",
+		"kLinkingPath": "",
+		"kBundleVersion": "",
+		"kBundleTechnologyType": 0,
+		"kMatchedPath": "",
+		"kResolvedPath": "",
+		"kBundleIdentifier": "",
+		"kPrefFile": "",
+		"kNameOfBundle": ""
+	}
+}
+0.036 [I|31] cb.client: Carrier bundle: Name: , ID: , Matched: , Resolved: , Version: , Linking: , Preference: , Carrier File: , Tech type: 0, Match Info: null, Tech: (nothing)
+0.036 [I|31] cb.client: Operator bundle: Name: , ID: , Matched: , Resolved: , Version: , Linking: , Preference: , Carrier File: , Tech type: 0, Match Info: null, Tech: (nothing)
+0.036 [I|31] cb.client: Bootstrap bundle: Name: , ID: , Matched: , Resolved: , Version: , Linking: , Preference: , Carrier File: , Tech type: 0, Match Info: null, Tech: (nothing)
+0.036 [I|31] cb.client: Default bundle: Name: , ID: , Matched: , Resolved: , Version: , Linking: , Preference: , Carrier File: , Tech type: 0, Match Info: null, Tech: (nothing)
+0.036 [I|27+] cs: Reloading the carrier preferences from file: 
+0.036 [N|27] cb.network: Failed to get the URL for the file 
+0.036 [I|27+] cs: Reloading the operator preferences from file: 
+0.036 [N|27] cb.network: Failed to get the URL for the file 
+0.036 [I|27+] cs: Reloading the bootstrap carrier preferences from file: 
+0.036 [N|27] cb.network: Failed to get the URL for the file 
+0.036 [I|27+] cs: Reloading the default carrier preferences from file: 
+0.036 [N|27] cb.network: Failed to get the URL for the file 
+0.036 [I|31] cb.client: BundleType::kDefault: Matching info has changed
+0.036 [I|31] cb.server: Received command at the server: kMatchBundle
+0.036 [I|31,33+] cb.server: Matching the BundleType::kDefault  bundle with criteria: {
+	"InternationalMobileSubscriberIdentity": "Default.bundle"
+}
+0.036 [I|31,33] cb.man: 
+0.036 [I|31,33] cb.man: =========================== Potentially Resetting BundleType::kDefault Bundle ===========================
+0.036 [I|31,33] cb.man: 
+0.036 [I|31,33] cb.man: ---Begin Carrier Info for Bundle Matching---
+0.036 [I|31,33] cb.man: Number of key-values: 1
+0.036 [I|31,33] cb.man: IMSI = 'Default.bundle'
+0.036 [I|31,33] cb.man: ---End of Carrier Info---
+0.036 [I|31,33] cb.man: ------------ Device Overlay ------------ 
+0.036 [I|31,33] cb.man: ********** System Bundle Lookup *********
+0.036 [I|31,33] cb.match.util: Provided match prefix to search based on SIM information: Default.bundle
+0.037 [I|31,33] cb.match.util: No content in directory in cache: /System/Library/Carrier Bundles/iPad
+0.037 [I|31,33] cb.match.util: No candidates were found in the collection
+0.037 [I|31,33] cb.match.util: Returning bundle match: Matchs: [Name: , Score: 0, include cookie: true], [Name: , Score: 0, include cookie: false]
+0.037 [I|31,33] cb.man: 
+0.037 [I|31,33] cb.man: *********** User Bundle Lookup **********
+0.037 [I|31,33] cb.match.util: Provided match prefix to search based on SIM information: Default.bundle
+0.037 [I|31,33] cb.match.util: No content in directory in cache: /nfs/2015/f/fbellott/Library/Carrier Bundles/iPad
+0.037 [I|31,33] cb.match.util: No candidates were found in the collection
+0.037 [I|31,33] cb.match.util: Returning bundle match: Matchs: [Name: , Score: 0, include cookie: true], [Name: , Score: 0, include cookie: false]
+0.037 [I|31,33] cb.man: 
+0.037 [I|31,33] cb.man: No matching bundle found in System or usr directories
+0.037 [I|31,33] cb.man: ********** System Bundle Lookup *********
+0.037 [I|31,33] cb.match.util: Provided match prefix to search based on SIM information: Unknown.bundle
+0.037 [I|31,33] cb.match.util: No content in directory in cache: /System/Library/Carrier Bundles/iPad
+0.037 [I|31,33] cb.match.util: No candidates were found in the collection
+0.037 [I|31,33] cb.match.util: Returning bundle match: Matchs: [Name: , Score: 0, include cookie: true], [Name: , Score: 0, include cookie: false]
+0.037 [I|31,33] cb.man: 
+0.037 [I|31,33] cb.man: *********** User Bundle Lookup **********
+0.037 [I|31,33] cb.match.util: Provided match prefix to search based on SIM information: Unknown.bundle
+0.037 [I|31,33] cb.match.util: No content in directory in cache: /nfs/2015/f/fbellott/Library/Carrier Bundles/iPad
+0.037 [I|31,33] cb.match.util: No candidates were found in the collection
+0.037 [I|31,33] cb.match.util: Returning bundle match: Matchs: [Name: , Score: 0, include cookie: true], [Name: , Score: 0, include cookie: false]
+0.037 [I|31,33] cb.man: 
+0.037 [I|31,33] cb.man: No matching bundle found in System or usr directories
+0.037 [I|31,33] cb.overlay: Failed to find a bundle
+0.037 [I|31,33] cb.overlay: Loading carrier file 
+0.037 [N|31,33] cb.network: Failed to get the URL for the file 
+0.037 [I|31,33] cb.overlay: Failed to load the base bundle carrier file itself, carrier info not present
+0.037 [I|31,33] cb.man: Device overlay decision: kCarrierInfoNotPresent
+0.037 [I|31,33] cb.man: Is the matching bundle found: No
+0.037 [I|31,33] cb.man: Unable to find a matching BundleType::kDefault bundle
+0.038 [I|31,33] cb.bun: Bundle path is invalid, cannot remove
+0.038 [I|31,33] cb.man: There was an error setting up the BundleType::kDefault bundle, unfortunately we now have to brick the phone
+0.038 [I|31,33] cb.man: Carrier Bundle Match Result: kBundleChangeTypeSetupError
+0.038 [I|31,33] cb.server: Reply dictionary after matching the carrier bundle: {
+	"kCarrierFilePathName": "",
+	"kLinkingPath": "",
+	"kBundleVersion": "",
+	"kBundleMatchResult": 5,
+	"kBundleTechnologyType": 0,
+	"kMatchedPath": "",
+	"kResolvedPath": "",
+	"kBundleIdentifier": "",
+	"kPrefFile": "",
+	"kNameOfBundle": ""
+}
+0.038 [I|31] cb.client: BundleType::kDefault: Sent request {
+	"kWirelessTechnology": 0,
+	"kBundleCommand": "kMatchBundle",
+	"kMatchingCriteria": {
+		"InternationalMobileSubscriberIdentity": "Default.bundle"
+	},
+	"kBundleType": 5
+} to match bundle, received result: {
+	"kCarrierFilePathName": "",
+	"kLinkingPath": "",
+	"kBundleVersion": "",
+	"kBundleMatchResult": 5,
+	"kBundleTechnologyType": 0,
+	"kMatchedPath": "",
+	"kResolvedPath": "",
+	"kBundleIdentifier": "",
+	"kPrefFile": "",
+	"kNameOfBundle": ""
+}
+0.038 [I|31] cb.client: No SID Table file in carrier or default bundles
+0.038 [I|31] cb.client: No Equivalent Bundle Table file in carrier or default bundles
+0.038 [I|31] evt: Firing event 'default_bundle_setup': with params= kBundleChangeTypeSetupError
+0.038 [I|31] cb.client: Not sending default bundle change as there is no carrier info
+0.038 [I|27+] cs: Reloading the default carrier preferences from file: 
+0.038 [N|27] cb.network: Failed to get the URL for the file 
+0.038 [I] DATA:cb-apn:refresh: cellularDataBundleName: 
+0.038 [I] DATA:cb-apn:refresh: carrierBundleName: 
+0.038 [I] DATA:cb-apn:refresh: reading APNs from: com.apple.carrier.data
+0.038 [I] DATA:cb-apn:refresh: No APNS in com.apple.carrier.data
+0.038 [I] DATA:cb-apn:refresh: 0 APN(s) in CB of modern format.single bundle
+0.038 [I] DATA:dw-apn:DarwinPDPConfig: Default wireless technology is GSM/UMTS
+0.038 [I|34+] subutil: [home] Carrier bundle setup event received, refreshing MCC, MNC and Last known MCC values
+0.038 [I|34] subutil: [home] Matching info is not present
+0.038 [I|34] evt: Firing event 'subscriber_mcc_mnc_computed': with params= , 
+0.038 [I|34] evt: Firing event 'subscriber_mcc_mnc_computed_info': with params= , , 0
+0.038 [I|34,31+] cb.client: Did not match bundle type BundleType::kCarrier_2 against 4 linked bundles
+0.038 [I|34] subutil: [roam] Carrier bundle setup event received, refreshing MCC, MNC and Last known MCC values
+0.039 [I|34] subutil: [roam] Matching info is not present
+0.039 [I|34] evt: Firing event 'sec_subscriber_mcc_mnc_computed': with params= , 
+0.039 [I|34] evt: Firing event 'sec_subscriber_mcc_mnc_computed_info': with params= , , 0
+0.039 [I|20+] 5wi: Ignoring subscriberMccMncComputed_sync, MCC:, MNC:
+0.039 [I|25+] server: Lost subscriber information, resetting the state of 'can send request'
+0.039 [I] DATA:eu-apn:refresh: no own MCC detected yet - opt-out
+0.039 [I] DATA:dw-apn:reconfigure: tech:GSM/UMTS, forced:false
+0.039 [I] DATA:ui-apn:refresh: refresh for subscriber:'' (same)
+0.039 [I] DATA:ui-apn:apply: 0 APN(s)
+0.040 [I] DATA:ipcu:readAPN: No IPCU profile or missing key 'profile'
+0.040 [I] DATA:: Pulling APN settings for 0 from profile or carrier settings
+0.040 [I] DATA:: IPCU file DOES NOT exist - old style profile reading skipped
+0.040 [I] DATA:: IPCU APN not found (old style)
+0.041 [I] DATA:dw-apn:reconfigure: skipped - no changes detected
+0.042 [I] DATA:dw-apn:writeServiceEntryToSystemConfig: pdp0, technology (nothing)
+0.042 [I] pkt: Created PDP manager for unit 0
+0.042 [I] pkt: Failed to get serviceID for IPV4
+0.042 [I] pkt: unit 0: offline->error
+0.042 [I] pkt: Failed to get serviceID for IPV6
+0.042 [I] pkt: unit 0: offline->error
+0.042 [I] DATA:dw-apn:writeServiceEntryToSystemConfig: pdp1, technology (nothing)
+0.042 [I] pkt: Created PDP manager for unit 1
+0.042 [I] pkt: Failed to get serviceID for IPV4
+0.042 [I] pkt: unit 1: offline->error
+0.042 [I] pkt: Failed to get serviceID for IPV6
+0.042 [I] pkt: unit 1: offline->error
+0.042 [I] evt: Firing event 'DarwinPdpReady'
+0.042 [I] DATA:ServiceController:handleDarwinPdpReady_sync: pdpManager is created
+0.042 [I] NOBB:NoBBRadioModule_NOSUPPORT:getCellularDataIsEnabled: 
+0.042 [I] pkt: setting interface availability, pdp: 0, source: kDataEnabled available: 1
+0.042 [I] pkt: map for pdp:0 {  (kDataEnabled:1) } 
+0.042 [I] pkt: changing interface availability, pdp: 0, available: 1
+0.042 [I] pkt: dictionary com.apple.CommCenter in State:// is not present
+0.042 [I] pkt: (CSIPDPManager::ifstatus = 0, Boolean newstate =1
+0.042 [I] pkt: returning value CSIPDPManager::ifstatus =  unknown 1
+0.042 [I] pkt: setting interface availability, pdp: 0, source: kDataDisabledButton available: 1
+0.042 [I] pkt: map for pdp:0 {  (kDataEnabled:1) (kDataDisabledButton:1) } 
+0.042 [I] pkt: changing interface availability, pdp: 0, available: 1
+0.043 [I] pkt: dictionary com.apple.CommCenter in State:// is not present
+0.043 [I] pkt: (CSIPDPManager::ifstatus = 0, Boolean newstate =1
+0.043 [I] pkt: returning value CSIPDPManager::ifstatus =  unknown 1
+0.043 [I] pkt: setting interface availability, pdp: 1, source: kDataEnabled available: 1
+0.043 [I] pkt: map for pdp:1 {  (kDataEnabled:1) } 
+0.043 [I] pkt: changing interface availability, pdp: 1, available: 1
+0.043 [I] misc: SCSettings: current plist values are AirplaneMode=unset RestrictedMode=unset
+0.043 [I] evt: Connecting
+0.043 [I] pkt: dictionary com.apple.CommCenter in State:// is not present
+0.043 [I] pkt: (CSIPDPManager::ifstatus = 0, Boolean newstate =1
+0.043 [I] pkt: returning value CSIPDPManager::ifstatus =  unknown 1
+0.043 [I] pkt: setting interface availability, pdp: 1, source: kDataDisabledButton available: 1
+0.043 [I] pkt: map for pdp:1 {  (kDataEnabled:1) (kDataDisabledButton:1) } 
+0.043 [I] pkt: changing interface availability, pdp: 1, available: 1
+0.044 [I] pkt: dictionary com.apple.CommCenter in State:// is not present
+0.044 [I] pkt: (CSIPDPManager::ifstatus = 0, Boolean newstate =1
+0.044 [I] pkt: returning value CSIPDPManager::ifstatus =  unknown 1
+0.044 [I] DATA:ServiceController:reactivateAsserted_sync:  due to TetheringAssertion::create force=false
+0.044 [I] DATA:Connection:Internet:hasDataAssertionsTrigger: Internet is not asserted
+0.044 [I] DATA:Connection:WirelessModemTraffic:isTetheringAsserted: Tethering is not asserted
+0.044 [I|13] persist: thumper cache read array failed (error = -25300)
+0.044 [I|13] ids: [i] Started
+0.044 [I|17] persist: kEntitlementCacheKey cache read failed (error = -25300)
+0.044 [I|17] ent.ctr: Unable to retrieve cached entitlements ALL
+0.044 [I|13] ids: [i] Initial set of bootstrapped uuids:0 devices
+0.044 [I|13] ids:      (no device uuids)
+0.046 [I|28] persist: th-kEntitlementCacheKey cache read failed (error = -25300)
+0.046 [I|28] enth.ctr: Unable to retrieve cached entitlements ALL
+0.048 [I|17] persist: kSignatureCacheKey cache read failed (error = -25300)
+0.048 [I|17] ent.ctr: Adding FaceTimeOverCellular to not supported
+0.048 [I|17] ent.ctr: Adding Tethering to not supported
+0.048 [I|17] ent.ctr: Adding Agent to not supported
+0.048 [I|17] ent.ctr: Adding VoWiFi to not supported
+0.048 [I|17] ent.ctr: Adding Thumper to not supported
+0.048 [I|17] ent.ctr: Entitlement results have not changed, not sending entitlement_changed event
+0.048 [I|17] ent.ctr: Wifi availability is changing from false to true
+0.048 [I|17] ent.ctr: Checking entitlements [] with reason: CheckEntitlementsReason::kSelfInitiated
+0.048 [E|17] ent.ctr: Invalid Driver
+0.048 [I|28] persist: th-kSignatureCacheKey cache read failed (error = -25300)
+0.048 [I|28] enth.ctr: 
+0.048 [I|28] enth.ctr: Generating entitlement changed events
+0.048 [I|28] enth.ctr: 
+0.048 [I|28] evt: Firing event 'entitlement_changed_th': with params= 0000000000, 0000000000, 0000000000, EntitlementResults(Phone Number:Unknown, SubscriptionAndUsageStatus:Unknown, FaceTimeOverCellular:Unknown, Tethering:Unknown, Update Push Token:Unknown, Perform Auth-Only:Unknown, Agent:Unknown, VoWiFi:Unknown, Thumper:Unknown, VVM:Unknown, )
+0.048 [I|28] enth.ctr: Wifi availability is changing from false to true
+0.048 [I|28] enth.ctr: Checking entitlements [] with reason: CheckEntitlementsReason::kSelfInitiated
+0.048 [E|28] enth.ctr: Invalid Driver
+0.048 [I|4+] xpc.event:   --------------> kCTEventCarrierEntitlementsQueryComplete(136) sent to 0 (of 0) clients. Full Event: {
+	"kEvent": 136,
+	"kNotificationEvent": 136,
+	"kNotificationDict": {}
+}
+0.053 [I|13] icld: ICloudSync created
+0.066 [I|28+] enth.ctr: Found Real Unique ID53F44086-0986-43DA-96BB-BB05C84542F9
+0.070 [I|4+] xpc: Setting up CT server handlers: 20 to run
+0.070 [I|4] xpc: CT server handlers installed: 77 handlers, 129 reply-handlers
+0.070 [I] xpc: New CTServerConnection from pid 21637 (conn=0x7fb94a43d8d0).
+0.071 [I] xpc:  -- connection has entitlements: supported=[spi]
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kWhois. Full request: {
+	"kName": "UserEventAgent-CTTelephonyCenter",
+	"kRequest": "kWhois",
+	"kProgName": "UserEventAgent"
+}
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 172,
+	"kRequest": "kRegisterNotification"
+}
+0.071 [I|4+] xpc: CTServerConnection from pid 21637[UserEventAgent] is named 'UserEventAgent-CTTelephonyCenter'.
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 1,
+	"kRequest": "kRegisterNotification"
+}
+0.071 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventRestrictedForegroundResume(172) (now total 1)
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 3,
+	"kRequest": "kRegisterNotification"
+}
+0.071 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventCallStatus(1) (now total 2)
+0.071 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventCallSubType(3) (now total 3)
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 115,
+	"kRequest": "kRegisterNotification"
+}
+0.071 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventAlternateCallStatus(115) (now total 4)
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 4,
+	"kRequest": "kRegisterNotification"
+}
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 5,
+	"kRequest": "kRegisterNotification"
+}
+0.071 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventCallIdentification(4) (now total 5)
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 7,
+	"kRequest": "kRegisterNotification"
+}
+0.071 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventCallForwarded(5) (now total 6)
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 6,
+	"kRequest": "kRegisterNotification"
+}
+0.071 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventCallCauseCode(7) (now total 7)
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 164,
+	"kRequest": "kRegisterNotification"
+}
+0.071 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventCallControlError(6) (now total 8)
+0.071 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventCallInputFrequencyLevel(164) (now total 9)
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 165,
+	"kRequest": "kRegisterNotification"
+}
+0.071 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventCallOutputFrequencyLevel(165) (now total 10)
+0.071 [I] xpc.client: CCXpcServer(21637[(pending)]:'(pending)'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 166,
+	"kRequest": "kRegisterNotification"
+}
+0.071 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventPullCallIsPossible(166) (now total 11)
+0.072 [I] pp: Stopping heart beat inactivity timer
+0.072 [I] NOBB:NoBBRadioModule_NOSUPPORT:enableFastDormancySupport: 
+0.073 [N] misc: CommCenter Init: RadioModule created
+0.073 [N] misc: CommCenter Init: starting services
+0.073 [N|1+] svcmgr: Bootstrap in progress MD[[bootstrap]]
+0.073 [N|5+] rest: Starting XPC listener
+0.073 [N|1] svcmgr: All services ready; Starting! MD[[start]]
+0.073 [I] call: Updating registration status from kRegistrationStatusUnknown to kRegistrationStatusUnknown
+0.073 [I] DATA:TechDriver:handleSimsChanged_sync: empty sim info.
+0.074 [I] loc: STOP LOCATION UPDATE
+0.074 [I] DATA:ui-apn:refresh: refresh for subscriber:'' (same)
+0.074 [I] DATA:ui-apn:apply: 0 APN(s)
+0.074 [I] pnr.mgr: Phone number hasn't been read
+0.074 [I] pnr.mgr: Phone number hasn't been read
+0.074 [I] pnr.mgr: Phone number hasn't been read
+0.074 [I] pnr.mgr: Phone number hasn't been read
+0.074 [I] 5wi: handleSimsChanged_sync: empty sim info.
+0.075 [I] loc: Location services are disabled
+0.076 [N] misc: CommCenter Init: complete
+0.081 [I] csiapp.info: Application launched: AppInfo[Spotify, com.spotify.client, true, 21649, 0]
+0.157 [I] csiapp.info: Application launched: AppInfo[activateSettings, , true, 21656, 0]
+0.212 [I] csiapp.info: Application exited: AppInfo[activateSettings, , false, 21656, 0]
+0.320 [I] csiapp.info: Application exited: AppInfo[sharingd, , false, 21660, 0]
+1.219 [I] xpc.client: CCXpcServer(21637[UserEventAgent]:'UserEventAgent-CTTelephonyCenter'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 1,
+	"kRequest": "kRegisterNotification"
+}
+1.219 [I] xpc.client: CCXpcServer(21637[UserEventAgent]:'UserEventAgent-CTTelephonyCenter'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 92,
+	"kRequest": "kRegisterNotification"
+}
+1.219 [I] xpc.client: CCXpcServer(21637[UserEventAgent]:'UserEventAgent-CTTelephonyCenter'/0x7fb94a43d8d0) request: kRegisterNotification. Full request: {
+	"kEvent": 158,
+	"kRequest": "kRegisterNotification"
+}
+1.219 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventCallStatus(1) (now total 12)
+1.219 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventCallCapabilitiesChanged(92) (now total 13)
+1.219 [I|4+] xpc:   ==== client 21637 (UserEventAgent-CTTelephonyCenter) registered for event kCTEventCallEndedInDoNotDisturb(158) (now total 14)
+1.532 [I|13] ids: local IDS device ID is '<CFString 0x7fb94a60dbc0 [0x7fff7b988440]>{contents = "3ABBF57F-10E3-4E11-BB91-9AA4EAAACE9F"}'
+1.532 [I|13] ps.ths:init_sync: Bootup switch is:Default, account ID:, fProvisioningApplied:false
+1.532 [I|13] ps.tdm: Created
+1.532 [I|13] ps.ctl: Created
+1.540 [I|13+] ps.ths:handleEntitlementUpdate: ================================ Evaluate Entitlement Update ================================
+1.540 [I|13] ps.ths:handleEntitlementUpdate: Thumper Entitlement:Unknown - no change
+1.540 [I|13+] ps.ths:handleEntitlementUpdate: ================================ Evaluate Entitlement Update ================================
+1.540 [I|13] ps.ths:handleEntitlementUpdate: Thumper Entitlement:Unknown - no change
+1.540 [I] ids: [i] Initial set of devices: 0 devices
+1.540 [I] ids: [i] No bootstrap info, no need to update remote devices
+1.540 [I] ps.tdm: iCloud status event 'accounts daemon ready' with name ''
+1.540 [I] ps.tdm: iCloud status: not signed, known ID: ''
+1.540 [I] ps.ths:serviceRefresh: userAction:false, reprovisioning:false, service was up:false
+1.540 CopyIMSConfigValue: : EnableThumperByDefault. = NULL
+1.540 [I] ps.ths:serviceRefresh: 0 - reprovisioning:no  state:Disabled switchIsON:[1](Default) iCloud:signed-out calledID:[mismatch] accountState:[-1] paired:[0] preprovisioned:[0] serviceAllowed:[0] provisioned:[0] applied:[0]
+1.540 [I] ps.ths:serviceRefresh: 1 - reprovisioning:no  state:Disabled switchIsON:[1](Default) iCloud:signed-out calledID:[mismatch] accountState:[-1] paired:[0] preprovisioned:[0] serviceAllowed:[0] provisioned:[0] applied:[0]
+1.540 CopyIMSConfigValue: : EnableThumperByDefault. = NULL
+1.540 [I] ps.ths:isEnabled: Thumper user switch state is Default ('on'), activating: false; service status: Disabled; reprovisioining: false; isEnabled return 'false'
+1.540 [I] ps.ctl:fireEventAboutCapability: kCTEventCallCapabilitiesChanged.Thumper changed
+1.540 [I] ps.ctl:fireEventAboutCapability: kCTEventCallCapabilitiesChanged.Thumper notification sent, reason: update
+1.540 [I|4+] xpc.event:   --------------> kCTEventCallCapabilitiesChanged(92) sent to 1 (of 1) clients. Full Event: {
+	"kEvent": 92,
+	"kNotificationEvent": 92,
+	"kNotificationDict": {
+		"kCTCapabilityPhoneServices": {
+			"account-details": {
+				"account-list": [],
+				"thumper-calling-support": true,
+				"device-list": [],
+				"device-id": "3ABBF57F-10E3-4E11-BB91-9AA4EAAACE9F"
+			},
+			"kCTCapabilityCanSet": false,
+			"kCTCapabilityStatus": false
+		}
+	}
+}
+1.581 [I] xpc: New CTServerConnection from pid 21696 (conn=0x7fb94a46b0f0).
+1.581 [I] xpc:  -- connection has entitlements: supported=[spi,identity,phone,phone,data-usage,data-allowed,data-allowed-write,voice]
+1.581 [I] xpc.client: CCXpcServer(21696[(pending)]:'(pending)'/0x7fb94a46b0f0) request: kWhois. Full request: {
+	"kName": "callservicesd-CTTelephonyCenter",
+	"kRequest": "kWhois",
+	"kProgName": "callservicesd"
+}
+1.581 [I] xpc.client: CCXpcServer(21696[(pending)]:'(pending)'/0x7fb94a46b0f0) request: kRegisterNotification. Full request: {
+	"kEvent": 172,
+	"kRequest": "kRegisterNotification"
+}
+1.581 [I|4+] xpc: CTServerConnection from pid 21696[callservicesd] is named 'callservicesd-CTTelephonyCenter'.
+1.581 [I] xpc.client: CCXpcServer(21696[(pending)]:'(pending)'/0x7fb94a46b0f0) request: kRegisterNotification. Full request: {
+	"kEvent": 1,
+	"kRequest": "kRegisterNotification"
+}
+1.581 [I|4+] xpc:   ==== client 21696 (callservicesd-CTTelephonyCenter) registered for event kCTEventRestrictedForegroundResume(172) (now total 1)
+1.581 [I|4+] xpc:   ==== client 21696 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallStatus(1) (now total 2)
+1.581 [I] xpc.client: CCXpcServer(21696[(pending)]:'(pending)'/0x7fb94a46b0f0) request: kRegisterNotification. Full request: {
+	"kEvent": 3,
+	"kRequest": "kRegisterNotification"
+}
+1.581 [I] xpc.client: CCXpcServer(21696[(pending)]:'(pending)'/0x7fb94a46b0f0) request: kRegisterNotification. Full request: {
+	"kEvent": 115,
+	"kRequest": "kRegisterNotification"
+}
+1.581 [I|4+] xpc:   ==== client 21696 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallSubType(3) (now total 3)
+1.581 [I] xpc.client: CCXpcServer(21696[(pending)]:'(pending)'/0x7fb94a46b0f0) request: kRegisterNotification. Full request: {
+	"kEvent": 4,
+	"kRequest": "kRegisterNotification"
+}
+1.581 [I|4+] xpc:   ==== client 21696 (callservicesd-CTTelephonyCenter) registered for event kCTEventAlternateCallStatus(115) (now total 4)
+1.581 [I] xpc.client: CCXpcServer(21696[(pending)]:'(pending)'/0x7fb94a46b0f0) request: kRegisterNotification. Full request: {
+	"kEvent": 5,
+	"kRequest": "kRegisterNotification"
+}
+1.581 [I|4+] xpc:   ==== client 21696 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallIdentification(4) (now total 5)
+1.581 [I] xpc.client: CCXpcServer(21696[(pending)]:'(pending)'/0x7fb94a46b0f0) request: kRegisterNotification. Full request: {
+	"kEvent": 7,
+	"kRequest": "kRegisterNotification"
+}
+1.581 [I|4+] xpc:   ==== client 21696 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallForwarded(5) (now total 6)
+1.581 [I] xpc.client: CCXpcServer(21696[(pending)]:'(pending)'/0x7fb94a46b0f0) request: kRegisterNotification. Full request: {
+	"kEvent": 6,
+	"kRequest": "kRegisterNotification"
+}
+1.581 [I|4+] xpc:   ==== client 21696 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallCauseCode(7) (now total 7)
+1.581 [I|4+] xpc:   ==== client 21696 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallControlError(6) (now total 8)
+1.581 [I] xpc.client: CCXpcServer(
