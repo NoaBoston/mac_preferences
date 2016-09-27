@@ -5,41 +5,41 @@
 	<key>com.apple.CoreSimulator.SimRuntime.iOS-9-3</key>
 	<dict>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPad-2</key>
-		<string>EEDAB8AB-204A-4027-A9EF-BA23B14B40FD</string>
+		<string>A30F9948-1C06-4070-8703-ACA097531D0E</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPad-Air</key>
-		<string>293AEA6E-9F1B-4B94-ACE6-F157CB03A93C</string>
+		<string>5E95AF0D-3065-44D8-A68A-D96087EBC506</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPad-Air-2</key>
-		<string>B3AD451D-4DB0-48B5-AE26-CB525FB47596</string>
+		<string>CA0E85F4-B50C-4479-AD11-AFB719DACA64</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPad-Pro</key>
-		<string>C877FD6B-52B3-4B3D-91A1-D0910FF104B1</string>
+		<string>816DD84D-08CE-40C5-A8A3-E06EF673B0D2</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPad-Retina</key>
-		<string>28D6D148-1A5C-476E-A5FF-BE4472C05E4E</string>
+		<string>1C88E3B5-8131-44D2-B71B-9D499B0EE878</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-4s</key>
-		<string>9982A5C1-D2BA-4F21-9266-F6D67D7836CD</string>
+		<string>55734FA7-6542-4326-A710-5451CDADA0B7</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-5</key>
-		<string>9C9B7EB1-9AD1-4904-9419-70510C11477C</string>
+		<string>154613BF-8589-4EE7-9C5A-E5EBA07259AE</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-5s</key>
-		<string>9404FD3F-5CB2-4EB4-898B-2EC0BB9A161A</string>
+		<string>C8C46EFB-3DBB-41C6-9A16-BFB0D032D5FD</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-6</key>
-		<string>0D3BF2DE-437D-429B-8C03-DF0FE519DC7D</string>
+		<string>2DC4872C-11AB-48EE-B6EF-CD903519C68A</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-6-Plus</key>
-		<string>8CA254D0-AE90-4880-A134-38BCF1315249</string>
+		<string>56587B98-7AA5-421A-AB6E-C52085A68807</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-6s</key>
-		<string>93281918-6CA2-4F68-A26A-D311C337167F</string>
+		<string>7507F4A9-B9BE-447D-AB1E-A4E8BCC2470F</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus</key>
-		<string>38581DEC-03AB-4A79-B3C1-30C877676B19</string>
+		<string>710A1C32-1A81-4896-8417-CACFF9FC609A</string>
 	</dict>
 	<key>com.apple.CoreSimulator.SimRuntime.tvOS-9-2</key>
 	<dict>
 		<key>com.apple.CoreSimulator.SimDeviceType.Apple-TV-1080p</key>
-		<string>95614FA8-6E4E-4604-9B11-0D0D443ED110</string>
+		<string>B69EBA99-61DC-4709-88A8-D322F96CB38D</string>
 	</dict>
 	<key>com.apple.CoreSimulator.SimRuntime.watchOS-2-2</key>
 	<dict>
 		<key>com.apple.CoreSimulator.SimDeviceType.Apple-Watch-38mm</key>
-		<string>20D452BE-25EE-4E27-81D4-7035EE2405DD</string>
+		<string>F1AD0D78-2391-4401-88E5-71DF76A14708</string>
 		<key>com.apple.CoreSimulator.SimDeviceType.Apple-Watch-42mm</key>
-		<string>B681A1EE-C354-4EBB-8C05-EF0AB424BE9C</string>
+		<string>8908C9AD-C255-4D9A-AD11-301BBFA042EB</string>
 	</dict>
 	<key>version</key>
 	<integer>0</integer>

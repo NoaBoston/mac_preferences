@@ -24,6 +24,12 @@
       <MachineEntry uuid="{55127f7e-0245-412f-8beb-d95479c83979}" src="/nfs/2015/f/fbellott/.docker/machine/machines/machine01/machine01/machine01.vbox"/>
       <MachineEntry uuid="{ab23350d-4cab-46fb-8a7e-e03970309579}" src="/nfs/2015/f/fbellott/.docker/machine/machines/machine01/machine01/machine01.vbox"/>
       <MachineEntry uuid="{13de1480-46cc-44cc-9e5b-ba5a307cb886}" src="/nfs/2015/f/fbellott/.docker/machine/machines/machine01/machine01/machine01.vbox"/>
+      <MachineEntry uuid="{8f53b454-16d0-4679-923a-038136876a52}" src="/nfs/2015/f/fbellott/.docker/machine/machines/machine01/machine01/machine01.vbox"/>
+      <MachineEntry uuid="{f811e6d6-ff4f-40a0-b3c4-a56ea3f9ca2a}" src="/sgoinfre/goinfre/Perso/fbellott/machines/default/default/default.vbox"/>
+      <MachineEntry uuid="{37cd0bbf-e978-46f8-8c3a-5d2329ac46dc}" src="/nfs/2015/f/fbellott/.docker/machine/machines/default/default/default.vbox"/>
+      <MachineEntry uuid="{9d295e73-65df-4e3a-bff5-e57e8bcdc130}" src="/sgoinfre/goinfre/Perso/fbellott/machines/default/default/default.vbox"/>
+      <MachineEntry uuid="{394b69b5-1f64-4d18-994b-28cae4759504}" src="/sgoinfre/goinfre/Perso/fbellott/machines/default/default/default.vbox"/>
+      <MachineEntry uuid="{384b7ee4-e292-41b1-a676-c7ef343078a4}" src="/sgoinfre/goinfre/Perso/fbellott/machines/default/default/default.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>

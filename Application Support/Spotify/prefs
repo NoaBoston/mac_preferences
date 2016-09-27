@@ -1,8 +1,8 @@
 autologin.username="belotte55"
 core.clock_delta=0
-autologin.saved_credentials="{\"belotte55\":[\"belotte55\",\"/9JLra7PbmxnDQS/7TKM8GeLgPgtenf0tY/E6D1QiQ/efyz1GR1Q6UjYl2/Z0g7+\"]}"
+autologin.saved_credentials="{\"belotte55\":[\"belotte55\",\"UiX7DPSOF9ynGtIkPGfHEPtrukZynIoRxyvM0L24xyyCGFktJovUMkwm/EXuRx0f\"]}"
 app.autostart-banner-seen=true
-autologin.blob="/9JLra7PbmxnDQS/7TKM8GeLgPgtenf0tY/E6D1QiQ/efyz1GR1Q6UjYl2/Z0g7+"
+autologin.blob="UiX7DPSOF9ynGtIkPGfHEPtrukZynIoRxyvM0L24xyyCGFktJovUMkwm/EXuRx0f"
 app.autostart-configured=true
 autologin.canonical_username="belotte55"
 storage.last-location="/nfs/2015/f/fbellott/Library/Application Support/Spotify/PersistentCache/Storage"
